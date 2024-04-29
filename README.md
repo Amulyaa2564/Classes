@@ -12,7 +12,7 @@
 <h6>Heading Tag</h6>
 <p>In today's class we discussed about  what is html and tags such as
     heading tag,paragraph tag,table format,image</p>
-<img src="img.png">
+<a href="page.html" target="_blank"><img src="img.png" ></a>
 <ol>
 <li>Html</li>
 <li>Heading tags</li>
