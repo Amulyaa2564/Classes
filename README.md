@@ -1,56 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Webpage</title>
+<title>Document</title>
 </head>
 <body>
-<h1>Heading Tag</h1>
-<h2>Heading Tag</h2>
-<h3>Heading Tag</h3>
-<h4>Heading Tag</h4>
-<h5>Heading Tag</h5>
-<h6>Heading Tag</h6>
-<p>In today's class we discussed about  what is html and tags such as
-    heading tag,paragraph tag,table format,image</p>
-<a href="page.html" target="_blank"><img src="img.png" ></a>
-<ol>
-<li>Html</li>
-<li>Heading tags</li>
-<li>Paragraph tag</li>
-<li>Anchor tag with href attribute and target attribute</li>
-<li>Image tag with src attribute</li>
-<li>Tables in html</li>
-</ol>
-<ul>
-<li>Heading tags</li>
-<li>Paragraph tag</li>
-<li>Anchor tag with href attribute and target attribute</li>
-<li>Image tag with src attribute</li>
-<li>Tables in html</li>
-</ul>
-<table>
-    <th>Name</th>
-    <th>RollNo</th>
-    <th>Branch</th>
-    <th>Year</th>
-    <tr>
-        <td>Amulya</td>
-        <td>4388</td>
-        <td>AI</td>
-        <td>3rd year</td>
-    </tr>
-    <tr>
-        <td>Chethana</td>
-        <td>0594</td>
-        <td>CSE</td>
-        <td>3rd year</td>
-    </tr>
-    <tr>
-        <td>Sai</td>
-        <td>43a8</td>
-        <td>AI</td>
-        <td>3rd year</td>
-    </tr>
-</table>
+<form>
+    <label for="name">Enter Name</label>
+    <input type="text" id="name"><br>
+    <label for="mail">Enter mail</label>
+    <input type="email" id="mail"><br>
+    <label for="gender">Gender</label>
+    <input type="radio" id="gender" name="ma">
+    <label>Male</label>
+    <input type="radio" id="gender" name="ma">
+    <label>Female</label><br>
+    <label for="mobile">Mobile no</label>
+    <input type="tel" id="mobile"><br>
+    <label for="city">City</label>
+    <input type="text" id="city"><br>
+    <label for="study">Qualification</label>
+    <input type="radio" id="study" name="a">
+    <label>Under Graduate</label>
+    <input type="radio" id="study" name="a">
+    <label>Post Graduate</label><br>
+    <label for="resume">Upload your resume</label>
+    <input type="file" id="resume"><br>
+    <input type="submit">
+
+
+</form>
+    
 </body>
 </html>
